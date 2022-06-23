@@ -1,0 +1,47 @@
+.top-container{
+    background-color: darkslategrey;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px 200px;
+}
+
+.header-logo, ul{
+    display: flex;
+}
+.content img{
+    width: 480px;
+    height: auto;
+}
+
+ul{
+    gap: 14px;
+    list-style: none;
+}
+.content{
+    gap: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding: 70px 0px;
+}
+.text{
+    max-width: 450px;
+}
+.bot-container{
+    text-align: center;
+}
+.bot-content{
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+}
+.images-with-info{
+    max-width: 200px;
+}
+.giant-quote{
+    display: block;
+    margin: 250px;
+}
