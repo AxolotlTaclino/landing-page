@@ -1,18 +1,31 @@
 .top-container{
-    background-color: darkslategrey;
+    color: white;
+    background-color: #1f2937;
+}
+body{
+    margin: 0px;
+    padding: 0px;
 }
 .header{
+    color: white;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    margin: 0px 200px;
+    align-items: center;
+    margin: 0px 160px;
 }
 
 .header-logo, ul{
     display: flex;
 }
+
+.header-logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
 .content img{
-    width: 480px;
+    width: 450px;
     height: auto;
 }
 
@@ -20,28 +33,90 @@ ul{
     gap: 14px;
     list-style: none;
 }
+
 .content{
-    gap: 12px;
+    gap: 20px;
     display: flex;
     justify-content: space-between;
-    margin: 0px 200px;
-    padding: 70px 0px;
+    margin: 0px 160px;
+    padding: 125px 0px;
 }
+
 .text{
     max-width: 450px;
 }
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    
+}
+
 .bot-container{
     text-align: center;
 }
+
 .bot-content{
     gap: 12px;
     display: flex;
     justify-content: center;
 }
+.bot-title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 30px;
+}
 .images-with-info{
     max-width: 200px;
 }
+
 .giant-quote{
+    color: #1f2937;
     display: block;
+    font-size: 48px;
     margin: 250px;
+}
+
+.quote-by{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.signup-prompt{
+    color: white;
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 0 200px;
+    padding: 50px 80px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 6px 25px;
+    border-radius: 5px;
+    background-color: #3882f6;
+}
+.signup-prompt a{
+    border: 2.5px solid white;
+    background-color: none;
+}
+
+.signup-text{
+    text-align: left;
+}
+
+.footer{
+    margin-top: 100px;
+    padding: 40px;
+    color: white;
+    background-color: #1f2937;
 }
